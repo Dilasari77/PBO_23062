@@ -1,0 +1,19 @@
+# modul__kalkulator
+
+def tambah(a, b):
+    """Fungsi untuk penjumlahan"""
+    return a + b
+
+def kurang(a, b):
+    """Fungsi untuk pengurangan"""
+    return a - b
+
+def kali(a, b):
+    """Fungsi untuk perkalian"""
+    return a * b
+
+def bagi(a, b):
+    """Fungsi untuk pembagian"""
+    if b == 0:
+        return "Error: Pembagian dengan nol tidak diperbolehkan."
+    return a / b
